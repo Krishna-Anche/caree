@@ -1,0 +1,81 @@
+name: Send Telegram Report
+
+on:
+  push:
+    paths:
+      - 'data/scan-report.json'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Send Telegram Report
+        run: |
+          REPORT=$(cat data/scan-report.json)
+          TEXT=$(echo "$REPORT" | python3 -c "
+          import sys, json
+          r = json.load(sys.stdin)
+
+          msg = '📊 <b>HOURLY REPORT</b>\n\n'
+
+          matches = r.get('verified_matches', [])
+          if matches:
+              msg += '✅ <b>Verified matches (' + str(len(matches)) + '):</b>\n'
+              for m in matches:
+                  msg += '• ' + m['company'] + ' - ' + m['title']
+                  if m.get('comp'): msg += ' | ' + m['comp']
+                  if m.get('location'): msg += ' | ' + m['location']
+                  msg += '\n'
+                  msg += '  🔗 ' + m['url'] + '\n'
+              msg += '\n'
+
+          skipped = r.get('skipped', 0)
+          if skipped:
+              msg += '❌ <b>Skipped:</b> ' + str(skipped) + ' (' + r.get('skip_reasons', 'non-USA, clearance, closed') + ')\n\n'
+
+          msg += '🔍 Scanned: ' + str(r.get('sources', 0)) + ' sources'
+          msg += ' | New: ' + str(r.get('new_found', 0))
+          msg += ' | Verified: ' + str(len(matches))
+          msg += '\nPipeline: ' + str(r.get('pipeline_total', 0)) + ' total'
+          msg += '\n\nNext scan in 1 hour.'
+
+          if not matches:
+              msg = '🔍 <b>HOURLY REPORT</b>\n\nNo new verified matches this hour.\nPipeline: ' + str(r.get('pipeline_total', 0)) + ' total.\nNext scan in 1 hour.'
+
+          print(msg)
+          ")
+
+          curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+            -H "Content-Type: application/json" \
+            --data-raw "{\"chat_id\":\"${{ secrets.TELEGRAM_CHAT_ID }}\",\"parse_mode\":\"HTML\",\"disable_web_page_preview\":true,\"text\":$(echo "$TEXT" | python3 -c 'import sys,json; print(json.dumps(sys.stdin.read()))')}"
+
+          # Send individual match cards with Apply buttons
+          echo "$REPORT" | python3 -c "
+          import sys, json, subprocess
+          r = json.load(sys.stdin)
+          for m in r.get('verified_matches', []):
+              slug = m['company'].lower().replace(' ', '-')[:20]
+              jid = m.get('job_id', '0')
+              text = '🎯 <b>VERIFIED MATCH - Score: ' + str(m.get('score', '4.0')) + '/5</b>\n\n'
+              text += '<b>' + m['company'] + ' - ' + m['title'] + '</b>\n'
+              if m.get('location'): text += '📍 ' + m['location']
+              if m.get('comp'): text += ' | 💰 ' + m['comp']
+              text += '\n\n✅ ' + m.get('match_reason', 'Skills match') + '\n\n🔗 ' + m['url']
+
+              data = json.dumps({
+                  'chat_id': '${{ secrets.TELEGRAM_CHAT_ID }}',
+                  'parse_mode': 'HTML',
+                  'disable_web_page_preview': True,
+                  'text': text,
+                  'reply_markup': {'inline_keyboard': [[
+                      {'text': '✅ Apply', 'callback_data': f'apply:{slug}:{jid}'},
+                      {'text': '❌ Skip', 'callback_data': f'skip:{slug}:{jid}'}
+                  ]]}
+              })
+              subprocess.run(['curl', '-s', '-X', 'POST',
+                  'https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage',
+                  '-H', 'Content-Type: application/json',
+                  '--data-raw', data], capture_output=True)
+          "
