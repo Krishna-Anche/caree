@@ -477,7 +477,68 @@ search_queries:
     enabled: true
 
   - name: DevOps — posted this week
-    query: '"Senior DevOps Engineer" OR "Senior SRE" OR "Senior Platform Engineer" remote USA 2026'
+    query: '"Senior DevOps Engineer" OR "Senior SRE" OR "Senior Platform Engineer" USA 2026'
+    enabled: true
+
+  # ---- Startup-focused job boards ----
+  - name: Otta — DevOps & SRE
+    query: 'site:otta.com "DevOps" OR "SRE" OR "Platform Engineer" OR "Infrastructure" senior'
+    enabled: true
+
+  - name: Otta — Cloud & Kubernetes
+    query: 'site:otta.com "Cloud Engineer" OR "Kubernetes" OR "Terraform" senior'
+    enabled: true
+
+  - name: Arc.dev — DevOps Remote
+    query: 'site:arc.dev "DevOps" OR "SRE" OR "Platform Engineer" OR "Infrastructure" senior'
+    enabled: true
+
+  - name: Levels.fyi — DevOps & SRE
+    query: 'site:levels.fyi/jobs "DevOps" OR "SRE" OR "Platform Engineer" OR "Infrastructure"'
+    enabled: true
+
+  - name: TechCrunch Jobs — DevOps
+    query: 'site:techcrunch.com/jobs "DevOps" OR "SRE" OR "Platform" OR "Infrastructure" senior'
+    enabled: true
+
+  - name: Startup.jobs — DevOps
+    query: 'site:startup.jobs "DevOps" OR "SRE" OR "Platform Engineer" OR "Cloud Engineer" senior'
+    enabled: true
+
+  - name: Underdog.io — DevOps
+    query: 'site:underdog.io "DevOps" OR "SRE" OR "Platform" OR "Infrastructure" senior'
+    enabled: true
+
+  - name: Triplebyte/Karat — DevOps
+    query: 'site:triplebyte.com OR site:karat.com "DevOps" OR "SRE" OR "Infrastructure" senior'
+    enabled: true
+
+  - name: Hired — DevOps & SRE
+    query: 'site:hired.com "DevOps" OR "SRE" OR "Platform Engineer" OR "Cloud Engineer"'
+    enabled: true
+
+  - name: PowerToFly — DevOps
+    query: 'site:powertofly.com "DevOps" OR "SRE" OR "Platform Engineer" OR "Infrastructure"'
+    enabled: true
+
+  - name: Lemon.io — DevOps
+    query: 'site:lemon.io "DevOps" OR "SRE" OR "Infrastructure" senior'
+    enabled: true
+
+  - name: Toptal — DevOps
+    query: 'site:toptal.com/careers "DevOps" OR "SRE" OR "Infrastructure" OR "Platform"'
+    enabled: true
+
+  - name: AngelList/Wellfound — Startups broad
+    query: 'site:wellfound.com "DevOps" OR "SRE" OR "Platform" OR "Infrastructure" OR "Cloud" senior startup'
+    enabled: true
+
+  - name: Crunchbase Jobs — DevOps
+    query: 'site:crunchbase.com/organization "DevOps" OR "SRE" engineer careers'
+    enabled: true
+
+  - name: Blind Jobs — DevOps
+    query: 'site:teamblind.com "DevOps" OR "SRE" OR "Platform Engineer" hiring'
     enabled: true
 
 # ============================================================
