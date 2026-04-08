@@ -1,0 +1,76 @@
+# Career-Ops Profile Configuration
+
+candidate:
+  full_name: "Sai Krishna Anche"
+  email: "krishanche@gmail.com"
+  phone: "669-529-7565"
+  location: "United States (Open to entire USA)"
+  linkedin: "linkedin.com/in/krishna-anche"
+  portfolio_url: ""
+  github: ""
+  twitter: ""
+
+target_roles:
+  primary:
+    - "Senior DevOps Engineer"
+    - "Senior Site Reliability Engineer"
+    - "Senior Platform Engineer"
+    - "Senior Cloud Engineer"
+    - "Senior Infrastructure Engineer"
+    - "Staff DevOps Engineer"
+  secondary:
+    - "AWS DevOps Engineer"
+    - "Cloud Engineer"
+    - "DevOps Engineer"
+    - "Platform Engineer"
+    - "Infrastructure Engineer"
+    - "Site Reliability Engineer"
+    - "System Engineer"
+  archetypes:
+    - name: "DevOps / Platform Engineer"
+      level: "Senior/Staff"
+      fit: "primary"
+    - name: "Site Reliability Engineer"
+      level: "Senior"
+      fit: "primary"
+    - name: "Cloud / Infrastructure Engineer"
+      level: "Senior"
+      fit: "primary"
+    - name: "DevOps Engineer"
+      level: "Mid-Senior"
+      fit: "secondary"
+    - name: "System Engineer"
+      level: "Mid-Senior"
+      fit: "adjacent"
+
+narrative:
+  headline: "Senior DevOps/Platform/SRE Engineer — 7+ years scaling infra from startups to semiconductor HPC"
+  exit_story: "Owned end-to-end infrastructure at a $2.5B AI startup with zero dedicated support. Now looking for a senior/staff role where I can build and scale production platforms."
+  superpowers:
+    - "End-to-end infrastructure ownership (Terraform, Ansible, Kubernetes, Helm)"
+    - "Cloud cost optimization (consistently 30%+ reductions)"
+    - "CI/CD pipeline architecture at scale (150+ engineers, 40+ repos)"
+    - "Security & compliance (CIS, SOX, ISO — zero audit findings)"
+    - "Observability & incident response (MTTD from 25min to <5min)"
+  proof_points:
+    - name: "Web AI — $2.5B AI Startup"
+      url: ""
+      hero_metric: "Solo infra owner across 3 products, 99.95% uptime, $18K/mo cloud savings"
+    - name: "NXP — 500+ Node K8s Clusters"
+      url: ""
+      hero_metric: "Migrated 300+ apps to AWS, 35% TCO reduction"
+    - name: "Siman Pro — 150+ Engineer Org"
+      url: ""
+      hero_metric: "Standardized IaC across 8 environments, 40% CI/CD cost reduction"
+
+compensation:
+  target_range: "$140K-250k"
+  currency: "USD"
+  minimum: "$140K"
+  location_flexibility: "Remote preferred, open to hybrid anywhere in the USA"
+
+location:
+  country: "United States"
+  city: "Open to entire USA"
+  timezone: "CST"
+  visa_status: "H1B — requires sponsorship"

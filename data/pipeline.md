@@ -1,0 +1,265 @@
+# Pipeline — Pending Offers
+
+## Pendientes
+
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/4502508008 | Anthropic | Application Security Engineer
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/4980335008 | Anthropic | GRC Automation Engineering Lead
+- [ ] https://boards.greenhouse.io/cloudflare/jobs/7185996?gh_jid=7185996 | Cloudflare | Application Security Engineer
+- [ ] https://boards.greenhouse.io/cloudflare/jobs/7249558?gh_jid=7249558 | Cloudflare | Database Reliability Engineer
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5786050004 | Grafana Labs | Associate Observability Architect | USA EST | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5790608004 | Grafana Labs | Manager Observability Architect | Germany | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5786033004 | Grafana Labs | Observability Architect | Canada | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5790622004 | Grafana Labs | Observability Architect | Sweden | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5786038004 | Grafana Labs | Observability Architect | USA EST | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5786061004 | Grafana Labs | Observability Architect | USA PST Hours | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5786043004 | Grafana Labs | Observability Architect | Washington DC | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5832498004 | Grafana Labs | Senior Observability Architect | USA CST | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5777605004 | Grafana Labs | Senior Observability Architect | USA PST | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5811265004 | Grafana Labs | Staff Software Engineer - Kubernetes Monitoring | Canada | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5809261004 | Grafana Labs | Staff Software Engineer - Kubernetes Monitoring | Germany | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5809258004 | Grafana Labs | Staff Software Engineer - Kubernetes Monitoring | Spain | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5809259004 | Grafana Labs | Staff Software Engineer - Kubernetes Monitoring | Sweden | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5809260004 | Grafana Labs | Staff Software Engineer - Kubernetes Monitoring | UK | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5811262004 | Grafana Labs | Staff Software Engineer - Kubernetes Monitoring | USA EST | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5813621004 | Grafana Labs | Senior Engineering Manager - Platform Metal | Germany | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5834342004 | Grafana Labs | Senior Engineering Manager - Platform Metal | Ireland | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5813620004 | Grafana Labs | Senior Engineering Manager - Platform Metal | Spain | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5813618004 | Grafana Labs | Senior Engineering Manager - Platform Metal | Sweden | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5813622004 | Grafana Labs | Senior Engineering Manager - Platform Metal | UK | Remote
+- [ ] https://job-boards.greenhouse.io/gitlab/jobs/8459132002 | GitLab | Infrastructure Security Engineer (USA)
+- [ ] https://job-boards.greenhouse.io/gitlab/jobs/8366595002 | GitLab | Principal Engineer, Infrastructure Platforms
+- [ ] https://jobs.elastic.co/jobs?gh_jid=7763314 | Elastic | Consulting Architect - Observability
+- [ ] https://jobs.elastic.co/jobs?gh_jid=7440232 | Elastic | Consulting Architect - Observability
+- [ ] https://jobs.elastic.co/jobs?gh_jid=7447246 | Elastic | Consulting Architect - Observability
+- [ ] https://jobs.elastic.co/jobs?gh_jid=7643175 | Elastic | Consulting Architect - Observability and Security
+- [ ] https://www.mongodb.com/careers/job/?gh_jid=7453323 | MongoDB | Cloud Operations Engineer
+- [ ] https://www.mongodb.com/careers/job/?gh_jid=7647255 | MongoDB | Cloud Operations Engineer
+- [ ] https://www.coinbase.com/careers/positions/7611268?gh_jid=7611268 | Coinbase | Security Engineer, CorpSec
+- [ ] https://job-boards.greenhouse.io/scaleai/jobs/4613839005 | Scale AI | DevOps Engineer, GPS
+- [ ] https://job-boards.greenhouse.io/scaleai/jobs/4674863005 | Scale AI | DevOps Engineer, Infrastructure & Security
+- [ ] https://job-boards.greenhouse.io/scaleai/jobs/4654831005 | Scale AI | Site Reliability Engineer / DevOps
+- [ ] https://job-boards.greenhouse.io/scaleai/jobs/4594879005 | Scale AI | Software Engineer, Platform
+- [ ] https://job-boards.greenhouse.io/runpod/jobs/4118412008 | RunPod | Security Engineer
+- [ ] https://job-boards.greenhouse.io/runpod/jobs/4142227008 | RunPod | Senior Software Engineer (Cloud)
+- [ ] https://job-boards.greenhouse.io/arizeai/jobs/5693219004 | Arize AI | Senior DevOps Engineer (APJ)
+- [ ] https://job-boards.greenhouse.io/airtable/jobs/8194662002 | Airtable | Product Security Engineer
+- [ ] https://job-boards.greenhouse.io/airtable/jobs/8400374002 | Airtable | Software Engineer, Observability
+- [ ] https://job-boards.greenhouse.io/airtable/jobs/8487502002 | Airtable | Senior Solutions Architect
+- [ ] https://job-boards.greenhouse.io/airtable/jobs/8341413002 | Airtable | Senior Solutions Architect
+- [ ] https://job-boards.greenhouse.io/airtable/jobs/8461582002 | Airtable | Senior Partner Solutions Architect
+- [ ] https://job-boards.greenhouse.io/vercel/jobs/5796302004 | Vercel | Solutions Architect
+- [ ] https://job-boards.greenhouse.io/vercel/jobs/5804110004 | Vercel | Solutions Architect
+- [ ] https://job-boards.greenhouse.io/vercel/jobs/5806749004 | Vercel | Solutions Architect
+- [ ] https://job-boards.greenhouse.io/vercel/jobs/5461002004 | Vercel | Sr. Engineering Manager, Platform
+- [ ] https://job-boards.greenhouse.io/vercel/jobs/5787232004 | Vercel | Senior Product Security Engineer
+- [ ] https://job-boards.greenhouse.io/discord/jobs/8400845002 | Discord | Principal Software Engineer - Infrastructure
+- [ ] https://job-boards.greenhouse.io/discord/jobs/8447477002 | Discord | Senior Security Engineer, Enterprise Security
+- [ ] https://job-boards.greenhouse.io/discord/jobs/8136321002 | Discord | Senior Software Engineer - Platform Infrastructure
+- [ ] https://job-boards.greenhouse.io/discord/jobs/8409021002 | Discord | Senior Software Engineer, Platform as a Service
+- [ ] https://boards.greenhouse.io/figma/jobs/5551649004?gh_jid=5551649004 | Figma | Software Engineer, Production Engineering
+- [ ] https://boards.greenhouse.io/figma/jobs/5829751004?gh_jid=5829751004 | Figma | Security Engineer
+- [ ] https://boards.greenhouse.io/figma/jobs/5807963004?gh_jid=5807963004 | Figma | Manager, Software Engineering - Observability
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4547218005 | Glean | Cloud Infrastructure Engineer
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4630926005 | Glean | Cloud Security Engineer
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4654833005 | Glean | Lead Site Reliability Engineer
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4529774005 | Glean | Security Engineer, Application Security
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4650994005 | Glean | Security Engineer, Cloud Security
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4636739005 | Glean | Software Engineer, Platform
+- [ ] https://jobs.ashbyhq.com/revenuecat/35961c70-7e6e-46e9-aa34-44aab42b945d | RevenueCat | Senior DevOps / DevEx Engineer
+- [ ] https://jobs.ashbyhq.com/kraken.com/0e512814-a14c-4ea7-8391-7d1c3e540bb9 | Kraken | SRE / DevOps Engineer
+- [ ] https://jobs.ashbyhq.com/rula/c1fc14c9-06d3-42a0-a148-79781129d92a | Rula | Sr. SRE & DevOps Engineer (Remote)
+- [ ] https://jobs.ashbyhq.com/tin-can/366eea54-835a-42f5-a575-bfcb72eb523c | Tin Can | Senior DevOps/SRE Engineer
+- [ ] https://jobs.ashbyhq.com/halborn/6952f469-e1a8-4d61-94b0-42d9c7177403 | Halborn | DevOps Engineer - 100% remote
+- [ ] https://jobs.ashbyhq.com/abacum/7bc4eb1b-330e-4eb8-a9a8-14a4900659c4 | Abacum | Senior DevOps Engineer
+- [ ] https://jobs.ashbyhq.com/everai/1c67b2ca-0fa8-457e-ba00-b457471cbb85 | EverAI | Senior DevOps Engineer (Full Remote - Europe)
+- [ ] https://jobs.ashbyhq.com/li.fi/551a9a67-6a39-484c-a952-8441a3b5f6d9 | LI.FI | Senior DevOps Engineer
+- [ ] https://jobs.ashbyhq.com/rula/b0b93c04-fa61-4b74-a682-0866371cebae | Rula | Staff Software Engineer - Platform Infrastructure (Remote)
+- [ ] https://jobs.ashbyhq.com/lightning/fde1d2b6-99e1-404a-b343-c35b2c40f9ae | Lightning Labs | Platform Engineer (Remote)
+- [ ] https://jobs.ashbyhq.com/lancedb/be40eabd-b5c6-48e4-adba-1c1fdea54acf | LanceDB | Senior Cloud Infrastructure Engineer
+- [ ] https://jobs.ashbyhq.com/phosphorus.io/ad8535b0-1cd9-40db-bb18-26bc6433bd13 | Phosphorus | Senior Cloud Infrastructure Engineer
+- [ ] https://jobs.ashbyhq.com/docker/3bd9ae32-0fc0-49e2-b615-d96ce80150fe | Docker | Senior Infrastructure Engineer
+- [ ] https://jobs.ashbyhq.com/camunda/8c34286f-ff6f-4ef2-ad57-2fe167e65fb0 | Camunda | Senior Cloud Infrastructure Engineer - Kubernetes (East Coast-Remote)
+- [ ] https://jobs.ashbyhq.com/n8n/640d55b3-3603-42f4-a05b-90962768fd16 | n8n | Senior Cloud Engineer | Europe remote
+- [ ] https://jobs.ashbyhq.com/lambda/cf68b388-6b83-4576-a5ef-86e7fd8ac23a | Lambda | Senior Cloud Solutions Engineer
+- [ ] https://jobs.ashbyhq.com/sereact/9e9b3c3e-bc0c-4f6e-afa1-843e5425ddc1 | Sereact | Senior Cloud Architect / Infrastructure Lead
+- [ ] https://jobs.ashbyhq.com/valon/71dcb68c-302d-4f8c-80cf-c1bd5ac106d5 | Valon | Senior Cloud Infrastructure Engineer
+- [ ] https://jobs.ashbyhq.com/openai/29c2c171-fb63-4985-9ac5-229b2ff5ced6 | OpenAI | Software Engineer, Cloud Infrastructure
+- [ ] https://jobs.ashbyhq.com/fireworks.ai/c5c489dc-ffe8-40eb-91b1-087f363630a7 | Fireworks AI | Site Reliability Engineer (SRE) / Production Engineer (PE)
+- [ ] https://jobs.ashbyhq.com/astronomer/c9e81bce-beff-475d-8e67-1faf71f8a2e6 | Astronomer | Senior Customer Reliability Engineer - Infrastructure
+- [ ] https://jobs.ashbyhq.com/Crusoe/120789b8-7406-4ba6-afc5-19f0822dd0f2 | Crusoe | Site Reliability Engineer (Kubernetes)
+- [ ] https://jobs.ashbyhq.com/lambda/5a9b244f-cc59-42c0-9804-778d64ed5927 | Lambda | Senior Site Reliability Engineer - Managed Kubernetes
+- [ ] https://jobs.ashbyhq.com/Crusoe/96d29d17-1357-486e-bf87-ca315d59b344 | Crusoe | Senior Site Reliability Engineer, Storage
+- [ ] https://jobs.ashbyhq.com/homevision/2d45f031-69d9-4999-8e36-70a51365603f | HomeVision | Site Reliability Engineer - US - Remote
+- [ ] https://jobs.ashbyhq.com/rogo/fa3f8dc9-4966-4c12-adf1-278963529c60 | Rogo | Site Reliability Engineer (SRE)
+- [ ] https://jobs.ashbyhq.com/bentoml/593c2f30-b8fd-412c-8c12-cfe3cee9a519 | BentoML | Site Reliability Engineer
+- [ ] https://job-boards.greenhouse.io/55564patriot334567software868575745/jobs/4091852009 | Patriot Software | Senior DevOps Engineer
+- [ ] https://job-boards.greenhouse.io/kunai/jobs/5077325007 | Kunai | Senior DevOps Engineer
+- [ ] https://job-boards.greenhouse.io/flex/jobs/4666310005 | Flex | Senior Infrastructure Engineer
+- [ ] https://job-boards.greenhouse.io/andurilindustries/jobs/5095017007 | Anduril Industries | Senior Site Reliability Engineer
+- [ ] https://job-boards.greenhouse.io/successkpiinc/jobs/4587866005 | SuccessKPI | Senior DevOps Engineer - Remote, USA
+- [ ] https://job-boards.greenhouse.io/doitintl/jobs/7584442003 | DoiT | Senior Platform Engineer
+- [ ] https://job-boards.greenhouse.io/kunai/jobs/5067793007 | Kunai | Senior Cloud Engineer
+- [ ] https://job-boards.greenhouse.io/hypori/jobs/5823225004 | Hypori | Senior Engineer Cloud Platforms
+- [ ] https://job-boards.greenhouse.io/twilio/jobs/7474040 | Twilio | Senior Infrastructure Engineer
+- [ ] https://job-boards.greenhouse.io/pingidentity/jobs/8421168002 | Ping Identity | Manager, Site Reliability Engineering - Government Cloud
+- [ ] https://job-boards.greenhouse.io/dbtlabsinc/jobs/4631974005 | dbt Labs | Senior Infrastructure Engineer II
+- [ ] https://job-boards.greenhouse.io/koddi/jobs/8401951002 | Koddi | Senior Cloud Platform Engineer - Terraform & Kubernetes
+- [ ] https://job-boards.greenhouse.io/sonicwall/jobs/7457873 | SonicWall | Senior DevOps Engineer - Terraform and Kubernetes
+- [ ] https://job-boards.greenhouse.io/rackner/jobs/4340012005 | Rackner | DevSecOps (Kubernetes) SME
+- [ ] https://job-boards.greenhouse.io/cresta/jobs/5137153008 | Cresta | Senior Infrastructure Engineer/SRE
+- [ ] https://job-boards.greenhouse.io/pagerduty/jobs/5550684004 | PagerDuty | Senior Site Reliability Engineer 3
+- [ ] https://job-boards.greenhouse.io/icapitalnetwork/jobs/8390699002 | iCapital | DevOps Engineer - Senior Vice President
+- [ ] https://job-boards.greenhouse.io/life360/jobs/8375358002 | Life360 | Staff DevOps Engineer
+- [ ] https://job-boards.greenhouse.io/akuity/jobs/4186344009 | Akuity | Senior Site Reliability Engineer
+- [ ] https://jobs.lever.co/owner/70756cdc-31e8-4f39-944c-ab254ba4d6ca | Owner | Senior DevOps Engineer
+- [ ] https://jobs.lever.co/liatrio/460b92ff-7078-4c7b-9362-49fc29bba70c | Liatrio | Senior DevOps Engineer / Consultant
+- [ ] https://jobs.lever.co/woven-by-toyota/fac65dd8-943f-4729-8203-5a4c3ea35bbc | Woven by Toyota | Senior Site Reliability Engineer, Cloud Platform
+- [ ] https://jobs.lever.co/oowlish/6f50474b-b01c-4149-a64c-03f0dd22813e | Oowlish | Senior Cloud Infrastructure Engineer (AWS)
+- [ ] https://jobs.lever.co/rackspace/acd16e75-42b9-4045-a35a-b602d1d34b75 | Rackspace | Senior Cloud Engineer, AWS Professional Services
+- [ ] https://jobs.lever.co/moonpay/bc09255a-8975-492e-93e4-ecf2f16e8e45 | MoonPay | Cloud Security Engineer
+- [ ] https://jobs.lever.co/thinkahead/acbaef6b-526e-4134-bb66-d2ceeb4ff25a | AHEAD | Cloud Engineer, AWS
+- [ ] https://apply.workable.com/optisigns-inc/j/0147D4E689/ | OptiSigns | Senior DevOps/SRE Architect
+- [ ] https://apply.workable.com/code-metal/j/CF746F8119/ | Code Metal | Senior Platform DevOps Engineer (Cloud + On-Prem)
+- [ ] https://apply.workable.com/autimo/j/0B2A904317/ | Autimo | Senior Cloud / DevOps Engineer (N.America, Remote)
+- [ ] https://apply.workable.com/itrs/j/7919F204C7/ | ITRS | DevOps / Platform Engineer (Remote - East Coast)
+- [ ] https://apply.workable.com/worthai/j/D484030E52/ | Worth AI | Senior DevOps Engineer, Infrastructure & Reliability
+- [ ] https://apply.workable.com/nillion/j/C0EE69D0B6/ | Nillion | Senior DevOps Engineer (Remote)
+- [ ] https://wellfound.com/jobs/3700734-senior-devops-engineer | HackerRank | Senior DevOps Engineer
+- [ ] https://openai.com/careers/infrastructure-engineering-lead-it-san-francisco/ | OpenAI | Infrastructure Engineering Lead, IT
+- [ ] https://openai.com/careers/site-reliability-engineer-frontier-systems-infrastructure-san-francisco/ | OpenAI | Site Reliability Engineer, Frontier Systems Infrastructure
+- [ ] https://openai.com/careers/software-engineer-cloud-infrastructure-san-francisco/ | OpenAI | Software Engineer, Cloud Infrastructure
+- [ ] https://openai.com/careers/software-engineer-security-observability-remote-us/ | OpenAI | Software Engineer, Security Observability
+- [ ] https://openai.com/careers/software-engineer-infrastructure-reliability-san-francisco/ | OpenAI | Software Engineer, Infrastructure Reliability
+- [ ] https://openai.com/careers/security-engineer-infrastructure-security-remote-us/ | OpenAI | Security Engineer, Infrastructure Security
+- [ ] https://careers.datadoghq.com/detail/4599154/ | Datadog | Senior Software Engineer - Cloud Security Platform
+- [ ] https://careers.datadoghq.com/detail/7379557/ | Datadog | Senior Software Engineer - Kubernetes / Container Autoscaling
+- [ ] https://careers.datadoghq.com/detail/6370445/?gh_jid=6370445 | Datadog | Senior Software Engineer - Internal Service Platform
+- [ ] https://stripe.com/jobs/listing/senior-staff-engineer-core-infrastructure/7017350 | Stripe | Senior Staff Engineer, Core Infrastructure
+- [ ] https://stripe.com/jobs/listing/senior-staff-software-engineer-developer-infrastructure/7409691 | Stripe | Senior Staff Software Engineer, Developer Infrastructure
+- [ ] https://jobs.paloaltonetworks.com/en/job/tel-aviv/senior-devops-sre-cortex/47263/70490296544 | Palo Alto Networks | Senior DevOps Engineer - (Cortex Cloud)
+- [ ] https://jobs.paloaltonetworks.com/en/job/seattle/sr-staff-devops-engineer-airs-ai-platform/47263/86158237168 | Palo Alto Networks | Sr Staff DevOps Engineer (AIRS AI Platform)
+- [ ] https://jobs.paloaltonetworks.com/en/job/santa-clara/principal-devops-engineer-cortex-prisma-cloud/47263/88099493984 | Palo Alto Networks | Principal DevOps Engineer (Cortex- Prisma Cloud)
+- [ ] https://jobs.paloaltonetworks.com/en/job/santa-clara/principal-sre-engineer-us-citizen/47263/93387607088 | Palo Alto Networks | Principal SRE Engineer (US Citizen)
+- [ ] https://jobs.paloaltonetworks.com/en/job/santa-clara/principal-platformatization-cloud-engineer-cdss-cloud-delivered-security-services/47263/85751539184 | Palo Alto Networks | Principal Platformatization Cloud Engineer (CDSS)
+- [ ] https://jobs.paloaltonetworks.com/en/job/tel-aviv/sr-devops-engineer-cortex/47263/85995230832 | Palo Alto Networks | Sr. DevOps Engineer (Cortex)
+- [ ] https://jobs.paloaltonetworks.com/en/job/tel-aviv/senior-platform-engineer-cortex-cloud/47263/83487284384 | Palo Alto Networks | Senior Platform Engineer (Cortex Cloud)
+- [ ] https://jobs.paloaltonetworks.com/en/job/seattle/sr-staff-devops-engineer/47263/91053592560 | Palo Alto Networks | Sr Staff DevOps Engineer
+- [ ] https://job-boards.greenhouse.io/gitlab/jobs/8464417002 | GitLab | Intermediate Site Reliability Engineer, Environment Automation
+- [ ] https://job-boards.greenhouse.io/gitlab/jobs/8468166002 | GitLab | Manager, Infrastructure Security (USA)
+- [ ] https://job-boards.greenhouse.io/discord/jobs/8332382002 | Discord | Senior Security Software Engineer, Detection and Response
+- [ ] https://job-boards.greenhouse.io/slingshotaerospace/jobs/5809580004 | Slingshot Aerospace | Senior DevOps Engineer
+- [ ] https://job-boards.greenhouse.io/remotepeople/jobs/4824362101 | Remote People | DevOps Engineer
+- [ ] https://jobs.ashbyhq.com/answersnow/baf0f3a8-4287-4ec3-9d43-efca5e8bb7f2 | AnswersNow | DevOps Engineer
+- [ ] https://jobs.ashbyhq.com/oscilar/41bf0f36-fc46-4bad-940b-58ca82b09989 | Oscilar | DevOps/Site Reliability Engineer (SRE)
+- [ ] https://jobs.ashbyhq.com/casca/83618a63-6e9f-43c7-baa7-70460f4db8a7 | Casca | Senior Infrastructure Engineer
+- [ ] https://jobs.ashbyhq.com/answersnow/708828ea-e3b9-4058-b8b6-e2199a79a3c5 | AnswersNow | Senior Cloud Engineer
+- [ ] https://jobs.ashbyhq.com/scrunch/9464bd17-47de-48d2-bd49-0a74dd41832e | Scrunch | Senior Infrastructure Engineer
+- [ ] https://jobs.lever.co/oowlish/9afdf6ef-febf-4e4b-8364-907c491e7202 | Oowlish | DevOps & Site Reliability Engineer
+- [ ] https://jobs.lever.co/thinkahead/32ca9732-ba74-43ce-8fe2-d1d4af33e414 | AHEAD | Senior Engineer, FinOps & DevOps
+- [ ] https://jobs.lever.co/innovativesol-2/5e4f5d6b-9bd2-472a-b79e-b0a1a88e1f46 | Innovative Solutions | Cloud Engineer, DevOps
+- [ ] https://jobs.lever.co/ciandt/ba7d2a84-b1f0-4899-a85f-0c60fdef39e4 | CI&T | Senior/Lead AWS Cloud Infrastructure Engineer
+- [ ] https://apply.workable.com/tyme/j/7A2958E1AA | TymeX | Senior DevOps Engineer (Cloud, AWS)
+- [ ] https://apply.workable.com/esgusa/j/4705277B6E | ESG USA | Senior DevOps Cloud Engineer
+- [ ] https://apply.workable.com/moro-tech/j/C5D9E671BA | Moro Tech | Senior DevOps Engineer
+- [ ] https://apply.workable.com/unison-consulting-pte-ltd/j/10A99780F1 | Unison Consulting | Senior DevOps Engineer
+- [ ] https://wellfound.com/jobs/3477887-senior-devops-engineer-remote | TransFi | Senior DevOps Engineer - Remote
+- [ ] https://stripe.com/jobs/listing/software-engineer-secrets-infrastructure/7396679 | Stripe | Software Engineer, Secrets Infrastructure
+- [ ] https://app.careerpuck.com/job-board/lyft/job/8302026002?gh_jid=8302026002 | Lyft | Senior Software Engineer, Cloud Security
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7622383003 | Affirm | Director, Software Engineering (Site Reliability Engineering)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/6681466003 | Affirm | Senior Site Reliability Engineer (SRE & Platform Reliability)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/6681464003 | Affirm | Senior Site Reliability Engineer (SRE & Platform Reliability)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7666127003 | Affirm | Senior Product Security Engineer
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7687160003 | Affirm | Senior Software Engineer (Infrastructure)
+- [ ] https://job-boards.greenhouse.io/launchdarkly/jobs/7655955003 | LaunchDarkly | Infrastructure Engineer
+- [ ] https://job-boards.greenhouse.io/launchdarkly/jobs/7689440003 | LaunchDarkly | Full Stack Engineer - Observability
+- [ ] https://job-boards.greenhouse.io/launchdarkly/jobs/6680649003 | LaunchDarkly | Senior Solutions Architect
+- [ ] https://job-boards.greenhouse.io/launchdarkly/jobs/7615560003 | LaunchDarkly | Staff Solutions Architect, AI
+- [ ] https://job-boards.greenhouse.io/pagerduty/jobs/5815418004 | PagerDuty | Senior Manager, Security Engineering
+- [ ] https://job-boards.greenhouse.io/pagerduty/jobs/5813107004 | PagerDuty | Engineering Manager - Platform Integrations
+- [ ] https://job-boards.greenhouse.io/dbtlabsinc/jobs/4674498005 | dbt Labs | Senior Security Operations Engineer, Detection & Response
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4612849005 | Glean | Application Security Engineer
+- [ ] https://job-boards.greenhouse.io/airtable/jobs/8400373002 | Airtable | Software Engineer, Infrastructure (2-8 YOE)
+- [ ] https://job-boards.greenhouse.io/airtable/jobs/8400388002 | Airtable | Software Engineer, Infrastructure (8+ YOE)
+- [ ] https://boards.greenhouse.io/andurilindustries/jobs/5016027007?gh_jid=5016027007 | Anduril Industries | Cloud Deployment Engineer, Space
+- [ ] https://jobs.elastic.co/jobs?gh_jid=7012918 | Elastic | Principal Solutions Architect, Observability
+- [ ] https://job-boards.greenhouse.io/gitlab/jobs/8341795002 | GitLab | Principal Solutions Architect
+- [ ] https://careers.snowflake.com/us/en/job/SNCOUSC96B22D402164CF09F01FE3A6EE989C0EXTERNALENUS17CB129E986042289CF1AA9949922FC6/Senior-Security-DevOps-Engineer | Snowflake | Senior Security DevOps Engineer
+- [ ] https://jobs.lever.co/jobgether/701c6240-c177-4f5e-85c7-35a4154b7f29 | Jobgether | Senior SRE DevOps Engineer (Remote US)
+- [ ] https://jobs.lever.co/coderpad/881b2c29-3806-44d1-b530-5e8ca93b2b24 | CoderPad | Senior Site Reliability Engineer
+- [ ] https://jobs.lever.co/certifid/ea61bb47-69b8-4777-ab3f-65057fe6c5a6 | CertifID | Senior Site Reliability Engineer
+- [ ] https://jobs.lever.co/dexcarehealth/bb1f472f-1d10-4f8b-961c-cafd88dbba89 | DexCare | Senior Site Reliability Engineer
+- [ ] https://jobs.lever.co/loadsmart/bf0ee61f-a043-4558-aa08-440f9d8fc04d | Loadsmart | Senior Site Reliability Engineer
+- [ ] https://jobs.ashbyhq.com/datatonic/c964b8c9-96b3-4470-8c78-a2c43e152e7b | Datatonic | Senior DevOps / Platform Engineer
+- [ ] https://jobs.ashbyhq.com/conveo/18f8f860-947a-44b9-abda-84bebe92f783 | Conveo.ai | Senior Platform Engineer, AI Tooling & Infrastructure
+- [ ] https://jobs.ashbyhq.com/unto-labs/4652a6a6-15db-4d5d-bf27-e2bdb98a622d | Unto Labs | Platform/DevOps Engineer
+- [ ] https://apply.workable.com/centorrino-technologies/j/C6BE5D8A12 | Centorrino Technologies | Senior Cloud DevOps Engineer
+- [ ] https://apply.workable.com/anspar/j/D9E5BD22B0/ | Anspar | DevOps / Platform Engineer
+- [ ] https://apply.workable.com/intetics-2/j/46B96D0208 | Intetics | SRE / DevOps / Infrastructure Engineer
+- [ ] https://apply.workable.com/clear-labs/j/84DE545F4F/ | Clear Labs | DevOps Engineer - Cloud & Edge Infrastructure
+- [ ] https://apply.workable.com/salla/j/7C01DBD41D | Salla | Senior DevOps Engineer
+- [ ] https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Senior-DevOps---Platform-Engineer_R166724 | Adobe | Senior DevOps / Platform Engineer
+- [ ] https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Senior-DevOps-Engineer---Robotics_JR2014821 | NVIDIA | Senior DevOps Engineer - Robotics
+- [ ] https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Senior-Site-Reliability-Engineer--Cloud_JR2002383 | NVIDIA | Senior Site Reliability Engineer, Cloud
+- [ ] https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Senior-Infrastructure-Security-Engineer---DGX-Cloud_JR2005588 | NVIDIA | Senior Infrastructure Security Engineer - DGX Cloud
+- [ ] https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Senior-DevOps-and-Build-Systems-Engineer_JR2006349 | NVIDIA | Senior DevOps and Build Systems Engineer
+- [ ] https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Chicago-IL/Senior-Infrastructure-DevOps-Engineer--Chicago-Hybrid-_R62848 | Motorola Solutions | Senior Infrastructure/DevOps Engineer (Chicago Hybrid)
+- [ ] https://ffive.wd5.myworkdayjobs.com/en-US/f5jobs/job/Senior-Site-Reliability-Engineer--Platform-Focus-_RP1036199 | F5 | Senior Site Reliability Engineer (Platform Focus)
+- [ ] https://dimensional.wd5.myworkdayjobs.com/DFA_Careers/job/Senior-Site-Reliability-Engineer---Observability_2026-8696 | Dimensional | Senior Site Reliability Engineer - Observability
+- [ ] https://dimensional.wd5.myworkdayjobs.com/DFA_Careers/job/Senior-Site-Reliability---Workflow-Automation_2026-8695 | Dimensional | Senior Site Reliability - Workflow Automation
+- [ ] https://qualys.wd5.myworkdayjobs.com/en-US/Careers/job/Lead-Site-Reliability-Engineer--DevOps_R0004372 | Qualys | Lead Site Reliability Engineer, DevOps
+- [ ] https://bloomberg.wd1.myworkdayjobs.com/en-US/Bloombergindustrygroup_External_Career_Site/job/Senior-Platform-Engineer--DevOps_135576 | Bloomberg Industry Group | Senior Platform Engineer - DevOps
+- [ ] https://myhrhome.wd1.myworkdayjobs.com/OneMainCareers/job/Senior-Platform-Engineer--Observability---Telemetry-_R2602-49841 | OneMain | Senior Platform Engineer (Observability & Telemetry)
+- [ ] https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Senior-Software-Engineer---Platform--DevOps---Developer-Experience_2531204-1 | KLA | Senior Software Engineer - Platform, DevOps & Developer Experience
+- [ ] https://leidos.wd5.myworkdayjobs.com/external/job/morgantown-wv/senior-devops-engineer---site-reliability-engineer_r-00177965-1/apply | Leidos | Senior DevOps Engineer / Site Reliability Engineer
+- [ ] https://www.metacareers.com/jobs/7868993783158276/ | Meta | Production Engineering
+- [ ] https://www.metacareers.com/jobs/1031032768371242 | Meta | Production Engineer
+- [ ] https://jobs.smartrecruiters.com/TRICENTIS/743999748820744-senior-devsecops-engineer-azure-aws- | Tricentis | Senior DevSecOps Engineer (Azure/AWS)
+- [ ] https://jobs.smartrecruiters.com/InvisibleTechnologies/743999806501855-principal-software-engineer-sre-devops-remote | Invisible Technologies | Principal Software Engineer (SRE/DevOps) - Remote
+- [ ] https://jobs.smartrecruiters.com/InformationInternationalAssociatesInc/743999824048598-devops-platform-engineer | IIA/KeyLogic | DevOps Platform Engineer
+- [ ] https://remotive.com/remote/jobs/devops/staff-devops-engineer-4206804 | Code for America | Staff DevOps Engineer
+- [ ] https://remotive.com/remote-jobs/devops/senior-devops-engineer-2070150 | Marketerx | Senior DevOps Engineer
+- [ ] https://openai.com/careers/hardware-development-infrastructure-engineer-san-francisco/ | OpenAI | Hardware Development Infrastructure Engineer
+- [ ] https://openai.com/careers/engineering-manager-data-infrastructure/ | OpenAI | Engineering Manager, Data Infrastructure
+- [ ] https://www.amazon.jobs/en/jobs/3070621/aws-public-sector-senior-cloud-architect-cloud-infrastructure | Amazon/AWS | AWS Public Sector Senior Cloud Architect - Cloud Infrastructure
+- [ ] https://www.amazon.jobs/en/jobs/3088362/senior-devops-consultant-professional-services | Amazon/AWS | Senior DevOps Consultant, Professional Services
+- [ ] https://www.amazon.jobs/en/jobs/2994072/awsi-senior-devops-consultant-professional-services-global-accounts | Amazon/AWS | AWSI Senior DevOps Consultant, Professional Services, Global Accounts
+- [ ] https://stripe.com/jobs/listing/software-engineer-product-security-data-platforms/7761694 | Stripe | Software Engineer, Product Security Data Platforms
+- [ ] https://www.workatastartup.com/jobs/53079 | Convex (YC W19) | Senior DevOps Engineer
+- [ ] https://job-boards.greenhouse.io/smithrx/jobs/8477046002 | SmithRx | Senior DevOps Engineer | ⭐ 4.0/5 | Remote US
+- [ ] https://job-boards.greenhouse.io/halcyon/jobs/5842441004 | Halcyon | Senior DevOps Engineer | ⭐ 4.5/5 | Remote USA | $180K-$220K
+- [ ] https://job-boards.greenhouse.io/technology/jobs/4813809101 | Relai | Senior DevOps Engineer
+- [ ] https://job-boards.greenhouse.io/nmi/jobs/5032290008 | NMI | Senior DevOps Engineer (GCP)
+- [ ] https://job-boards.greenhouse.io/teads1/jobs/4784667101 | Teads | Senior DevOps Engineer - Managed Platform
+- [ ] https://job-boards.greenhouse.io/extrahopnetworks/jobs/5839517004 | ExtraHop | Senior Software Engineer Cloud
+- [ ] https://job-boards.greenhouse.io/springhealth66/jobs/4655507005 | Spring Health | DevOps Engineer I
+- [ ] https://job-boards.greenhouse.io/sustainabletalent/jobs/4671897005 | Sustainable Talent/NVIDIA | Senior DevOps and Infrastructure Engineer
+- [ ] https://jobs.ashbyhq.com/flowhub/8ddf1328-82b2-476c-82f0-d113864f808c | Flowhub | Senior SRE/DevOps | ⭐ 4.0/5 | Remote
+- [ ] https://jobs.ashbyhq.com/phantom/d7e58dbb-21e0-4696-9f4a-cb158c1675b4 | Phantom | Staff DevOps Engineer | ⭐ 4.2/5 | Remote US | $150K-$250K
+- [ ] https://jobs.ashbyhq.com/altura/b7ae44aa-8938-45b3-ab54-10582c8f293b | Altura | Senior DevOps Engineer
+- [ ] https://jobs.ashbyhq.com/nextlinklabs/35fa0405-65df-4c6c-a100-20647e41d428 | NextLink Labs | Senior DevOps Engineer
+- [ ] https://jobs.ashbyhq.com/babylonlabs/fc3ecd39-03d3-416c-b207-26e20336abc5 | Babylon Labs | Senior DevOps Engineer
+- [ ] https://jobs.ashbyhq.com/Jump/b8656815-2b1a-4da8-8f7e-e1d967726db6 | Jump | Senior DevOps Engineer
+- [ ] https://jobs.ashbyhq.com/hiive/3a0d05fd-131a-4d1f-993a-dceb700a2894 | Hiive | Associate Director of Engineering, Platform
+- [ ] https://jobs.ashbyhq.com/bunch/8cb7a54c-aa5f-4dac-98ac-69ffb89df442 | Bunch | (Senior) Platform Engineer
+- [ ] https://jobs.ashbyhq.com/teraswitch/e2b9aca0-1828-450c-840a-d543618a4fbe | Teraswitch | Infrastructure Engineer / Senior Infrastructure Engineer
+- [ ] https://jobs.ashbyhq.com/hackerone/f4accefa-605f-479b-b75e-3de6cebc020b | HackerOne | Senior Manager, Software Engineering (Infrastructure) | ⚠️ No visa sponsorship
+- [ ] https://jobs.lever.co/voleon/18242a58-4148-496f-90f2-4f28a6b8be6e | Voleon Group | Senior Cluster Site Reliability Engineer | ⭐ 4.2/5 | USA | $205K-$235K
+- [ ] https://apply.workable.com/mlabs/j/53E07FF8A4 | MLabs | Senior DevOps / SRE Engineer | ⭐ 4.2/5 | Remote US | $120K-$150K
+- [ ] https://apply.workable.com/spark-networks/j/9D2DD2E1DA/ | Spark Networks | DevOps/SRE Engineer
+- [ ] https://gdit.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/Any-Location--Remote/Cloud-DevOps-Engineer-Senior-Reliability-Engineer_RQ212683-1 | GDIT | Cloud DevOps Engineer/Senior Reliability Engineer | ⚠️ Clearance may be required
+- [ ] https://qualys.wd5.myworkdayjobs.com/en-US/Careers/job/Senior-Site-Reliability-Engineer---DevOps_R0003578 | Qualys | Senior SRE - DevOps | ⭐ 4.0/5 | USA
+- [ ] https://workday.wd5.myworkdayjobs.com/Workday/job/USAVAReston/Senior-Site-Reliability-Engineer_JR-0104084 | Workday | Senior Site Reliability Engineer | ⭐ 4.0/5 | McLean VA
+- [ ] https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/AL---Home/Site-Reliability-Engineer--SRE-_HR102095 | Radiance Tech | Site Reliability Engineer (SRE)
+- [ ] https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Senior-DevOps-Engineer_JR2007892 | NVIDIA | Senior DevOps Engineer (AIR Team) | ⭐ 4.2/5 | USA | $144K-$270K
+- [ ] https://jobs.lever.co/metabase/1b702919-4d0b-4085-baec-8947f9b7e4ee | Metabase | Senior SRE/DevOps Engineer | ⭐ 4.0/5 | Remote USA
+- [ ] https://nasdaq.wd1.myworkdayjobs.com/en-US/Global_External_Site/job/Senior-Specialist--DevOps-Engineer_R0025053 | NASDAQ | Senior Specialist DevOps Engineer | ⭐ 4.0/5 | Atlanta Hybrid
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5141377008 | Anthropic | Engineering Manager, Cloud Inference AWS
+- [ ] https://job-boards.greenhouse.io/scaleai/jobs/4520320005 | Scale AI | Senior AI Infrastructure Engineer, Model Serving Platform
+- [ ] https://job-boards.greenhouse.io/andurilindustries/jobs/5055678007 | Anduril Industries | Senior Site Reliability Engineer
+- [ ] https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Senior-DevOps-Engineer--Build-Systems_JR2012054 | NVIDIA | Senior DevOps Engineer, Build Systems
+- [ ] https://jobs.ashbyhq.com/rula/61991f35-dce5-4eab-8e7c-0c1bf4276919 | Rula | Staff Software Engineer - SRE/DevEx (Remote) | ⭐ 4.3/5 | Remote USA | $160K-$225K
+- [ ] https://job-boards.greenhouse.io/natera/jobs/5766329004 | Natera | Senior DevOps/SRE Engineer (Observability) | ⭐ 4.2/5 | Remote USA | $147K-$184K
+- [ ] https://job-boards.greenhouse.io/inspiren/jobs/4924727007 | Inspiren | Staff Platform Engineer | ⭐ 4.0/5 | Remote USA | $180K-$220K
+- [ ] https://job-boards.greenhouse.io/doma/jobs/7388981 | Doma Technology | Staff Platform Engineer | ⭐ 4.0/5 | Remote USA | $132K-$236K
+
+## Procesadas

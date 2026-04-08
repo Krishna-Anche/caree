@@ -1,0 +1,1100 @@
+# Portal Scanner Configuration
+# Maximized coverage for Senior DevOps / Platform / SRE / Cloud Engineer roles
+# Target: ALL companies hiring in the USA
+
+title_filter:
+  positive:
+    # -- DevOps --
+    - "DevOps"
+    - "DevSecOps"
+    - "GitOps"
+    # -- Platform --
+    - "Platform Engineer"
+    - "Platform"
+    # -- SRE --
+    - "Site Reliability"
+    - "SRE"
+    - "Reliability Engineer"
+    # -- Cloud / Infrastructure --
+    - "Cloud Engineer"
+    - "Infrastructure Engineer"
+    - "Cloud Infrastructure"
+    - "AWS Engineer"
+    - "Azure Engineer"
+    - "GCP Engineer"
+    # -- Systems --
+    - "Systems Engineer"
+    - "System Engineer"
+    - "Linux Engineer"
+    # -- Kubernetes / Containers --
+    - "Kubernetes"
+    - "Container"
+    # -- CI/CD / Build --
+    - "CI/CD"
+    - "Build Engineer"
+    - "Release Engineer"
+    - "Automation Engineer"
+    # -- Observability --
+    - "Observability"
+    - "Monitoring"
+    # -- Security Ops --
+    - "Security Engineer"
+    - "Infrastructure Security"
+    # -- Adjacent --
+    - "Solutions Architect"
+    - "Cloud Architect"
+    - "Infrastructure Architect"
+    - "Production Engineer"
+    - "Ops Engineer"
+  negative:
+    - "Junior"
+    - "Intern"
+    - "iOS"
+    - "Android"
+    - "PHP"
+    - "Ruby"
+    - "Embedded"
+    - "Firmware"
+    - "FPGA"
+    - "ASIC"
+    - "Blockchain"
+    - "Web3"
+    - "Crypto"
+    - "Salesforce Admin"
+    - "SAP "
+    - "Oracle EBS"
+    - "Mainframe"
+    - "COBOL"
+    - "Frontend"
+    - "React"
+    - "UI/UX"
+    - "Designer"
+    - "Marketing"
+    - "Sales"
+    - "Recruiter"
+    - "Data Analyst"
+    - "Business Analyst"
+  max_age_days: 7  # Skip job postings older than 7 days
+  seniority_boost:
+    - "Senior"
+    - "Staff"
+    - "Principal"
+    - "Lead"
+    - "Head"
+    - "Director"
+
+# ============================================================
+# SEARCH QUERIES — Cross-platform discovery (finds ANY company)
+# ============================================================
+
+search_queries:
+
+  # ---- Ashby (hundreds of startups) ----
+  - name: Ashby — DevOps & Platform
+    query: 'site:jobs.ashbyhq.com "DevOps Engineer" OR "Platform Engineer" OR "SRE" senior'
+    enabled: true
+
+  - name: Ashby — Cloud & Infrastructure
+    query: 'site:jobs.ashbyhq.com "Cloud Engineer" OR "Infrastructure Engineer" OR "Cloud Architect" senior'
+    enabled: true
+
+  - name: Ashby — Kubernetes & Reliability
+    query: 'site:jobs.ashbyhq.com "Kubernetes" OR "Site Reliability" OR "Production Engineer"'
+    enabled: true
+
+  - name: Ashby — Staff/Lead level
+    query: 'site:jobs.ashbyhq.com "Staff DevOps" OR "Staff SRE" OR "Staff Platform" OR "Lead Infrastructure"'
+    enabled: true
+
+  # ---- Greenhouse (thousands of companies) ----
+  - name: Greenhouse — DevOps & Platform
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "DevOps" OR "Platform Engineer" OR "SRE" senior'
+    enabled: true
+
+  - name: Greenhouse — Cloud & Infrastructure
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "Cloud Engineer" OR "Infrastructure Engineer" senior'
+    enabled: true
+
+  - name: Greenhouse — Kubernetes & GitOps
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "Kubernetes" OR "GitOps" OR "Terraform" senior'
+    enabled: true
+
+  - name: Greenhouse — Staff/Lead level
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "Staff DevOps" OR "Staff SRE" OR "Staff Infrastructure" OR "Lead Platform"'
+    enabled: true
+
+  # ---- Lever (thousands of companies) ----
+  - name: Lever — DevOps & SRE
+    query: 'site:jobs.lever.co "DevOps Engineer" OR "Site Reliability" OR "Platform Engineer" senior'
+    enabled: true
+
+  - name: Lever — Cloud & Infra
+    query: 'site:jobs.lever.co "Cloud Engineer" OR "Infrastructure Engineer" OR "AWS" senior'
+    enabled: true
+
+  - name: Lever — Kubernetes & Terraform
+    query: 'site:jobs.lever.co "Kubernetes" OR "Terraform" OR "GitOps" senior'
+    enabled: true
+
+  # ---- Wellfound / AngelList (startups) ----
+  - name: Wellfound — DevOps & SRE
+    query: 'site:wellfound.com "Senior DevOps" OR "Senior SRE" OR "Senior Platform Engineer"'
+    enabled: true
+
+  - name: Wellfound — Cloud & Infra
+    query: 'site:wellfound.com "Senior Cloud Engineer" OR "Senior Infrastructure Engineer"'
+    enabled: true
+
+  # ---- Workable ----
+  - name: Workable — DevOps & Cloud
+    query: 'site:apply.workable.com "DevOps" OR "SRE" OR "Platform Engineer" OR "Cloud Engineer" senior'
+    enabled: true
+
+  - name: Workable — Infrastructure
+    query: 'site:apply.workable.com "Infrastructure Engineer" OR "Kubernetes" OR "Terraform" senior'
+    enabled: true
+
+  # ---- Indeed (largest job board) ----
+  - name: Indeed — Senior DevOps Remote
+    query: 'site:indeed.com "Senior DevOps Engineer" USA'
+    enabled: true
+
+  - name: Indeed — Senior SRE Remote
+    query: 'site:indeed.com "Senior Site Reliability Engineer" OR "Senior SRE" USA'
+    enabled: true
+
+  - name: Indeed — Senior Platform Engineer
+    query: 'site:indeed.com "Senior Platform Engineer" OR "Senior Cloud Engineer" USA'
+    enabled: true
+
+  - name: Indeed — Staff DevOps
+    query: 'site:indeed.com "Staff DevOps" OR "Staff SRE" OR "Staff Platform Engineer" USA'
+    enabled: true
+
+  # ---- LinkedIn Jobs (massive coverage) ----
+  - name: LinkedIn — Senior DevOps Remote
+    query: 'site:linkedin.com/jobs "Senior DevOps Engineer" United States'
+    enabled: true
+
+  - name: LinkedIn — Senior DevOps Hybrid
+    query: 'site:linkedin.com/jobs "Senior DevOps Engineer" hybrid United States'
+    enabled: true
+
+  - name: LinkedIn — Staff DevOps
+    query: 'site:linkedin.com/jobs "Staff DevOps Engineer" United States'
+    enabled: true
+
+  - name: LinkedIn — Senior SRE
+    query: 'site:linkedin.com/jobs "Senior Site Reliability Engineer" United States'
+    enabled: true
+
+  - name: LinkedIn — Staff SRE
+    query: 'site:linkedin.com/jobs "Staff SRE" OR "Staff Site Reliability" United States'
+    enabled: true
+
+  - name: LinkedIn — Senior Platform Engineer
+    query: 'site:linkedin.com/jobs "Senior Platform Engineer" United States'
+    enabled: true
+
+  - name: LinkedIn — Senior Cloud Engineer
+    query: 'site:linkedin.com/jobs "Senior Cloud Engineer" United States'
+    enabled: true
+
+  - name: LinkedIn — Senior Infrastructure Engineer
+    query: 'site:linkedin.com/jobs "Senior Infrastructure Engineer" United States'
+    enabled: true
+
+  - name: LinkedIn — Kubernetes
+    query: 'site:linkedin.com/jobs "Kubernetes Engineer" OR "Kubernetes" senior United States'
+    enabled: true
+
+  - name: LinkedIn — Terraform IaC
+    query: 'site:linkedin.com/jobs "Terraform" OR "Infrastructure as Code" senior engineer United States'
+    enabled: true
+
+  - name: LinkedIn — AWS DevOps
+    query: 'site:linkedin.com/jobs "AWS" "DevOps" OR "Cloud" senior engineer United States'
+    enabled: true
+
+  - name: LinkedIn — Azure DevOps
+    query: 'site:linkedin.com/jobs "Azure" "DevOps" OR "Cloud Engineer" senior United States'
+    enabled: true
+
+  - name: LinkedIn — GCP Cloud
+    query: 'site:linkedin.com/jobs "GCP" OR "Google Cloud" "DevOps" OR "SRE" senior United States'
+    enabled: true
+
+  - name: LinkedIn — Production Engineer
+    query: 'site:linkedin.com/jobs "Production Engineer" OR "Reliability Engineer" senior United States'
+    enabled: true
+
+  - name: LinkedIn — Cloud Architect
+    query: 'site:linkedin.com/jobs "Cloud Architect" OR "Infrastructure Architect" senior United States'
+    enabled: true
+
+  - name: LinkedIn — CI/CD Pipeline
+    query: 'site:linkedin.com/jobs "CI/CD" OR "Pipeline Engineer" OR "Build Engineer" senior United States'
+    enabled: true
+
+  - name: LinkedIn — DevOps Austin TX
+    query: 'site:linkedin.com/jobs "DevOps" OR "SRE" OR "Platform" senior Austin Texas'
+    enabled: true
+
+  - name: LinkedIn — DevOps New York
+    query: 'site:linkedin.com/jobs "DevOps" OR "SRE" OR "Cloud Engineer" senior "New York"'
+    enabled: true
+
+  - name: LinkedIn — DevOps San Francisco
+    query: 'site:linkedin.com/jobs "DevOps" OR "SRE" OR "Platform" senior "San Francisco" OR "Bay Area"'
+    enabled: true
+
+  - name: LinkedIn — DevOps Seattle
+    query: 'site:linkedin.com/jobs "DevOps" OR "SRE" OR "Cloud" senior Seattle Washington'
+    enabled: true
+
+  - name: LinkedIn — DevOps Chicago
+    query: 'site:linkedin.com/jobs "DevOps" OR "SRE" OR "Infrastructure" senior Chicago'
+    enabled: true
+
+  - name: LinkedIn — DevOps Denver
+    query: 'site:linkedin.com/jobs "DevOps" OR "SRE" OR "Cloud" senior Denver Colorado'
+    enabled: true
+
+  - name: LinkedIn — DevOps Dallas
+    query: 'site:linkedin.com/jobs "DevOps" OR "SRE" OR "Cloud" senior Dallas Texas'
+    enabled: true
+
+  - name: LinkedIn — Observability
+    query: 'site:linkedin.com/jobs "Observability Engineer" OR "Monitoring" senior United States'
+    enabled: true
+
+  - name: LinkedIn — GitOps ArgoCD
+    query: 'site:linkedin.com/jobs "GitOps" OR "ArgoCD" OR "FluxCD" engineer United States'
+    enabled: true
+
+  - name: LinkedIn — Container Orchestration
+    query: 'site:linkedin.com/jobs "Container" OR "Docker" OR "Kubernetes" infrastructure senior United States'
+    enabled: true
+
+  # ---- Indeed (largest US job board) ----
+  - name: Indeed — Senior DevOps Remote
+    query: 'site:indeed.com "Senior DevOps Engineer" USA'
+    enabled: true
+
+  - name: Indeed — Senior SRE Remote
+    query: 'site:indeed.com "Senior Site Reliability Engineer" OR "Senior SRE" USA'
+    enabled: true
+
+  - name: Indeed — Senior Platform Engineer
+    query: 'site:indeed.com "Senior Platform Engineer" OR "Senior Cloud Engineer" USA'
+    enabled: true
+
+  - name: Indeed — Staff DevOps
+    query: 'site:indeed.com "Staff DevOps" OR "Staff SRE" OR "Staff Platform Engineer" USA'
+    enabled: true
+
+  - name: Indeed — Senior Infrastructure
+    query: 'site:indeed.com "Senior Infrastructure Engineer" OR "Senior Cloud Infrastructure" USA'
+    enabled: true
+
+  - name: Indeed — Kubernetes Terraform
+    query: 'site:indeed.com "Kubernetes" OR "Terraform" senior DevOps USA'
+    enabled: true
+
+  - name: Indeed — AWS DevOps
+    query: 'site:indeed.com "AWS" "Senior DevOps" OR "Senior Cloud Engineer"'
+    enabled: true
+
+  # ---- Built In (tech-focused, city hubs) ----
+  - name: Built In — DevOps
+    query: 'site:builtin.com "Senior DevOps Engineer" OR "Staff DevOps"'
+    enabled: true
+
+  - name: Built In — SRE & Platform
+    query: 'site:builtin.com "Senior SRE" OR "Senior Platform Engineer" OR "Senior Infrastructure"'
+    enabled: true
+
+  - name: Built In — Cloud & Kubernetes
+    query: 'site:builtin.com "Senior Cloud Engineer" OR "Kubernetes" OR "Terraform"'
+    enabled: true
+
+  - name: Built In Austin — DevOps
+    query: 'site:builtin.com Austin "DevOps" OR "SRE" OR "Platform" OR "Cloud" senior'
+    enabled: true
+
+  # ---- Dice (tech-specific) ----
+  - name: Dice — DevOps & SRE
+    query: 'site:dice.com "Senior DevOps" OR "Senior SRE" OR "Senior Platform Engineer"'
+    enabled: true
+
+  - name: Dice — Cloud & Infra
+    query: 'site:dice.com "Senior Cloud Engineer" OR "Senior Infrastructure Engineer" OR "Kubernetes"'
+    enabled: true
+
+  # ---- Glassdoor ----
+  - name: Glassdoor — Senior DevOps
+    query: 'site:glassdoor.com/job "Senior DevOps Engineer"'
+    enabled: true
+
+  - name: Glassdoor — Senior SRE
+    query: 'site:glassdoor.com/job "Senior SRE" OR "Site Reliability Engineer"'
+    enabled: true
+
+  - name: Glassdoor — Platform & Cloud
+    query: 'site:glassdoor.com/job "Senior Platform Engineer" OR "Senior Cloud Engineer"'
+    enabled: true
+
+  # ---- ZipRecruiter ----
+  - name: ZipRecruiter — DevOps
+    query: 'site:ziprecruiter.com "Senior DevOps Engineer" OR "Senior SRE"'
+    enabled: true
+
+  - name: ZipRecruiter — Cloud & Infra
+    query: 'site:ziprecruiter.com "Senior Cloud Engineer" OR "Senior Infrastructure Engineer"'
+    enabled: true
+
+  # ---- Remote-specific job boards ----
+  - name: RemoteOK — DevOps
+    query: 'site:remoteok.com devops OR sre OR "platform engineer" OR "cloud engineer"'
+    enabled: true
+
+  - name: WeWorkRemotely — DevOps
+    query: 'site:weworkremotely.com devops OR sre OR "infrastructure engineer" OR "platform engineer"'
+    enabled: true
+
+  - name: FlexJobs — DevOps
+    query: 'site:flexjobs.com "DevOps Engineer" OR "SRE" OR "Cloud Engineer" OR "Platform Engineer" senior'
+    enabled: true
+
+  - name: Himalayas — DevOps
+    query: 'site:himalayas.app devops OR sre OR "platform engineer" OR "infrastructure engineer" senior'
+    enabled: true
+
+  - name: Remote.co — DevOps
+    query: 'site:remote.co "DevOps" OR "SRE" OR "Platform Engineer" OR "Cloud Engineer"'
+    enabled: true
+
+  - name: JustRemote — DevOps
+    query: 'site:justremote.co "DevOps" OR "SRE" OR "Infrastructure" OR "Cloud Engineer"'
+    enabled: true
+
+  # ---- YC / Hacker News / Tech communities ----
+  - name: YCombinator — DevOps
+    query: 'site:workatastartup.com "DevOps" OR "SRE" OR "Infrastructure" OR "Platform" senior'
+    enabled: true
+
+  - name: HN Who Is Hiring — DevOps
+    query: 'site:news.ycombinator.com "who is hiring" "DevOps" OR "SRE" OR "Platform" OR "Infrastructure" 2026'
+    enabled: true
+
+  - name: AngelList/Wellfound — DevOps broad
+    query: 'site:wellfound.com "DevOps" OR "SRE" OR "Platform Engineer" OR "Cloud Engineer" OR "Infrastructure" senior'
+    enabled: true
+
+  # ---- Google Jobs aggregator (pulls from everywhere) ----
+  - name: Google Jobs — Senior DevOps Remote
+    query: '"Senior DevOps Engineer" remote USA jobs 2026'
+    enabled: true
+
+  - name: Google Jobs — Senior SRE Remote
+    query: '"Senior Site Reliability Engineer" remote USA jobs 2026'
+    enabled: true
+
+  - name: Google Jobs — Senior Platform Remote
+    query: '"Senior Platform Engineer" remote USA jobs 2026'
+    enabled: true
+
+  - name: Google Jobs — Staff DevOps
+    query: '"Staff DevOps Engineer" OR "Staff SRE" USA jobs 2026'
+    enabled: true
+
+  - name: Google Jobs — Kubernetes DevOps
+    query: '"Kubernetes" "DevOps" OR "SRE" senior remote USA jobs 2026'
+    enabled: true
+
+  # ---- Glassdoor ----
+  - name: Glassdoor — DevOps & SRE
+    query: 'site:glassdoor.com/job "Senior DevOps Engineer" OR "Senior SRE"'
+    enabled: true
+
+  # ---- ZipRecruiter ----
+  - name: ZipRecruiter — DevOps
+    query: 'site:ziprecruiter.com "Senior DevOps Engineer" OR "Senior SRE"'
+    enabled: true
+
+  # ---- Workday (enterprise ATS) ----
+  - name: Workday — DevOps & SRE
+    query: 'site:myworkdayjobs.com "DevOps Engineer" OR "Site Reliability Engineer" OR "Platform Engineer" senior'
+    enabled: true
+
+  - name: Workday — Cloud & Infra
+    query: 'site:myworkdayjobs.com "Cloud Engineer" OR "Infrastructure Engineer" OR "Kubernetes" senior'
+    enabled: true
+
+  # ---- iCIMS ----
+  - name: iCIMS — DevOps & SRE
+    query: 'site:icims.com "Senior DevOps" OR "Senior SRE" OR "Senior Platform Engineer"'
+    enabled: true
+
+  # ---- Jobvite ----
+  - name: Jobvite — DevOps
+    query: 'site:jobs.jobvite.com "DevOps Engineer" OR "SRE" OR "Infrastructure Engineer" senior'
+    enabled: true
+
+  # ---- SmartRecruiters ----
+  - name: SmartRecruiters — DevOps
+    query: 'site:jobs.smartrecruiters.com "DevOps" OR "SRE" OR "Platform Engineer" OR "Cloud Engineer" senior'
+    enabled: true
+
+  # ---- BambooHR ----
+  - name: BambooHR — DevOps
+    query: 'site:bamboohr.com "DevOps" OR "SRE" OR "Infrastructure Engineer" senior'
+    enabled: true
+
+  # ---- Cross-portal broad searches ----
+  - name: Staff DevOps — All portals
+    query: '"Staff DevOps Engineer" OR "Staff Platform Engineer" OR "Staff SRE"'
+    enabled: true
+
+  - name: AWS DevOps — All portals
+    query: '"AWS DevOps" OR "AWS Infrastructure" OR "AWS Platform" senior engineer'
+    enabled: true
+
+  - name: Kubernetes Engineer — All
+    query: '"Senior Kubernetes Engineer" OR "Kubernetes Platform" OR "K8s Engineer" USA'
+    enabled: true
+
+  - name: Terraform Engineer — All
+    query: '"Terraform Engineer" OR "IaC Engineer" OR "Infrastructure as Code" senior USA'
+    enabled: true
+
+  - name: GitOps Engineer — All
+    query: '"GitOps Engineer" OR "ArgoCD" OR "FluxCD" senior engineer'
+    enabled: true
+
+  - name: Cloud Security Engineer — All
+    query: '"Cloud Security Engineer" OR "Infrastructure Security Engineer" senior USA'
+    enabled: true
+
+  - name: DevOps — posted this week
+    query: '"Senior DevOps Engineer" OR "Senior SRE" OR "Senior Platform Engineer" remote USA 2026'
+    enabled: true
+
+# ============================================================
+# TRACKED COMPANIES — Direct API / career page checks
+# ============================================================
+
+tracked_companies:
+
+  # =============================================
+  # TIER 1 — FAANG / Big Tech
+  # =============================================
+
+  - name: Google
+    careers_url: https://www.google.com/about/careers/applications/jobs/results
+    scan_method: websearch
+    scan_query: 'site:google.com/about/careers "DevOps" OR "SRE" OR "Infrastructure" OR "Platform" OR "Cloud"'
+    enabled: true
+
+  - name: Amazon/AWS
+    careers_url: https://www.amazon.jobs
+    scan_method: websearch
+    scan_query: 'site:amazon.jobs "DevOps" OR "SRE" OR "Infrastructure" OR "Platform" OR "Systems Engineer"'
+    enabled: true
+
+  - name: Microsoft
+    careers_url: https://careers.microsoft.com
+    scan_method: websearch
+    scan_query: 'site:careers.microsoft.com "DevOps" OR "SRE" OR "Infrastructure" OR "Platform" OR "Cloud Engineer"'
+    enabled: true
+
+  - name: Meta
+    careers_url: https://www.metacareers.com
+    scan_method: websearch
+    scan_query: 'site:metacareers.com "Production Engineer" OR "Infrastructure" OR "SRE" OR "Platform"'
+    enabled: true
+
+  - name: Apple
+    careers_url: https://jobs.apple.com
+    scan_method: websearch
+    scan_query: 'site:jobs.apple.com "DevOps" OR "SRE" OR "Infrastructure" OR "Cloud" OR "Site Reliability"'
+    enabled: true
+
+  - name: Netflix
+    careers_url: https://jobs.netflix.com
+    scan_method: websearch
+    scan_query: 'site:jobs.netflix.com "DevOps" OR "SRE" OR "Cloud" OR "Platform" OR "Infrastructure"'
+    enabled: true
+
+  # =============================================
+  # TIER 2 — Top AI Companies
+  # =============================================
+
+  - name: Anthropic
+    careers_url: https://job-boards.greenhouse.io/anthropic
+    api: https://boards-api.greenhouse.io/v1/boards/anthropic/jobs
+    enabled: true
+
+  - name: OpenAI
+    careers_url: https://openai.com/careers
+    scan_method: websearch
+    scan_query: 'site:openai.com/careers "DevOps" OR "SRE" OR "Infrastructure" OR "Platform"'
+    enabled: true
+
+  - name: Databricks
+    careers_url: https://job-boards.greenhouse.io/databricks
+    api: https://boards-api.greenhouse.io/v1/boards/databricks/jobs
+    enabled: true
+
+  - name: Scale AI
+    careers_url: https://job-boards.greenhouse.io/scaleai
+    api: https://boards-api.greenhouse.io/v1/boards/scaleai/jobs
+    enabled: true
+
+  - name: Cohere
+    careers_url: https://jobs.ashbyhq.com/cohere
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/cohere "DevOps" OR "Infrastructure" OR "Platform" OR "SRE"'
+    enabled: true
+
+  - name: ElevenLabs
+    careers_url: https://jobs.ashbyhq.com/elevenlabs
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/elevenlabs "DevOps" OR "Infrastructure" OR "Platform" OR "SRE"'
+    enabled: true
+
+  - name: Hugging Face
+    careers_url: https://apply.workable.com/huggingface
+    scan_method: websearch
+    scan_query: 'site:apply.workable.com/huggingface "DevOps" OR "Infrastructure" OR "Platform" OR "SRE"'
+    enabled: true
+
+  - name: Mistral AI
+    scan_method: websearch
+    scan_query: '"Mistral AI" "DevOps" OR "Infrastructure" OR "SRE" OR "Platform" engineer'
+    enabled: true
+
+  - name: Perplexity
+    scan_method: websearch
+    scan_query: '"Perplexity" careers "DevOps" OR "Infrastructure" OR "SRE" OR "Platform"'
+    enabled: true
+
+  - name: Cursor
+    scan_method: websearch
+    scan_query: '"Cursor" OR "Anysphere" careers "DevOps" OR "Infrastructure" OR "SRE" OR "Platform"'
+    enabled: true
+
+  - name: Midjourney
+    scan_method: websearch
+    scan_query: '"Midjourney" careers "DevOps" OR "Infrastructure" OR "SRE" engineer'
+    enabled: true
+
+  - name: Weights & Biases
+    scan_method: websearch
+    scan_query: 'site:boards.greenhouse.io/wandb OR "Weights and Biases" "DevOps" OR "Infrastructure" OR "SRE"'
+    enabled: true
+
+  - name: Replicate
+    scan_method: websearch
+    scan_query: '"Replicate" careers "DevOps" OR "Infrastructure" OR "SRE" OR "Platform"'
+    enabled: true
+
+  - name: Together AI
+    scan_method: websearch
+    scan_query: '"Together AI" careers "DevOps" OR "Infrastructure" OR "SRE" OR "Platform"'
+    enabled: true
+
+  - name: Glean
+    careers_url: https://job-boards.greenhouse.io/gleanwork
+    api: https://boards-api.greenhouse.io/v1/boards/gleanwork/jobs
+    enabled: true
+
+  - name: RunPod
+    careers_url: https://job-boards.greenhouse.io/runpod
+    api: https://boards-api.greenhouse.io/v1/boards/runpod/jobs
+    enabled: true
+
+  - name: Arize AI
+    careers_url: https://job-boards.greenhouse.io/arizeai
+    api: https://boards-api.greenhouse.io/v1/boards/arizeai/jobs
+    enabled: true
+
+  # =============================================
+  # TIER 3 — DevOps/Infra/Cloud Companies
+  # =============================================
+
+  - name: Datadog
+    careers_url: https://careers.datadoghq.com
+    scan_method: websearch
+    scan_query: 'site:careers.datadoghq.com "DevOps" OR "SRE" OR "Infrastructure" OR "Platform"'
+    enabled: true
+
+  - name: HashiCorp
+    careers_url: https://job-boards.greenhouse.io/hashicorp
+    api: https://boards-api.greenhouse.io/v1/boards/hashicorp/jobs
+    enabled: true
+
+  - name: Cloudflare
+    careers_url: https://job-boards.greenhouse.io/cloudflare
+    api: https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs
+    enabled: true
+
+  - name: Grafana Labs
+    careers_url: https://job-boards.greenhouse.io/grafanalabs
+    api: https://boards-api.greenhouse.io/v1/boards/grafanalabs/jobs
+    enabled: true
+
+  - name: GitLab
+    careers_url: https://job-boards.greenhouse.io/gitlab
+    api: https://boards-api.greenhouse.io/v1/boards/gitlab/jobs
+    enabled: true
+
+  - name: Elastic
+    careers_url: https://job-boards.greenhouse.io/elastic
+    api: https://boards-api.greenhouse.io/v1/boards/elastic/jobs
+    enabled: true
+
+  - name: Docker
+    careers_url: https://job-boards.greenhouse.io/docker
+    api: https://boards-api.greenhouse.io/v1/boards/docker/jobs
+    enabled: true
+
+  - name: Confluent
+    careers_url: https://job-boards.greenhouse.io/confluent
+    api: https://boards-api.greenhouse.io/v1/boards/confluent/jobs
+    enabled: true
+
+  - name: MongoDB
+    careers_url: https://job-boards.greenhouse.io/mongodb
+    api: https://boards-api.greenhouse.io/v1/boards/mongodb/jobs
+    enabled: true
+
+  - name: PagerDuty
+    careers_url: https://job-boards.greenhouse.io/pagerduty
+    api: https://boards-api.greenhouse.io/v1/boards/pagerduty/jobs
+    enabled: true
+
+  - name: New Relic
+    scan_method: websearch
+    scan_query: '"New Relic" careers "DevOps" OR "SRE" OR "Infrastructure" OR "Platform"'
+    enabled: true
+
+  - name: Splunk
+    scan_method: websearch
+    scan_query: 'site:splunk.com/careers OR "Splunk" careers "DevOps" OR "SRE" OR "Infrastructure"'
+    enabled: true
+
+  - name: Snyk
+    careers_url: https://job-boards.greenhouse.io/snyk
+    api: https://boards-api.greenhouse.io/v1/boards/snyk/jobs
+    enabled: true
+
+  - name: JFrog
+    scan_method: websearch
+    scan_query: '"JFrog" careers "DevOps" OR "SRE" OR "Infrastructure" OR "Cloud"'
+    enabled: true
+
+  - name: CircleCI
+    scan_method: websearch
+    scan_query: '"CircleCI" careers "DevOps" OR "SRE" OR "Infrastructure"'
+    enabled: true
+
+  - name: LaunchDarkly
+    careers_url: https://job-boards.greenhouse.io/launchdarkly
+    api: https://boards-api.greenhouse.io/v1/boards/launchdarkly/jobs
+    enabled: true
+
+  - name: Pulumi
+    scan_method: websearch
+    scan_query: '"Pulumi" careers "DevOps" OR "SRE" OR "Infrastructure" OR "Cloud"'
+    enabled: true
+
+  - name: Teleport
+    scan_method: websearch
+    scan_query: '"Teleport" OR "Gravitational" careers "DevOps" OR "SRE" OR "Infrastructure"'
+    enabled: true
+
+  - name: Temporal
+    careers_url: https://job-boards.greenhouse.io/temporal
+    api: https://boards-api.greenhouse.io/v1/boards/temporal/jobs
+    enabled: true
+
+  - name: Kong
+    careers_url: https://job-boards.greenhouse.io/kong
+    api: https://boards-api.greenhouse.io/v1/boards/kong/jobs
+    enabled: true
+
+  # =============================================
+  # TIER 4 — Major Tech / SaaS
+  # =============================================
+
+  - name: Stripe
+    careers_url: https://stripe.com/jobs
+    scan_method: websearch
+    scan_query: 'site:stripe.com/jobs "Infrastructure" OR "SRE" OR "Platform" OR "DevOps"'
+    enabled: true
+
+  - name: Uber
+    careers_url: https://uber.com/careers
+    scan_method: websearch
+    scan_query: 'site:uber.com/careers "DevOps" OR "SRE" OR "Infrastructure" OR "Platform"'
+    enabled: true
+
+  - name: Spotify
+    careers_url: https://jobs.lever.co/spotify
+    enabled: true
+
+  - name: Lyft
+    careers_url: https://job-boards.greenhouse.io/lyft
+    api: https://boards-api.greenhouse.io/v1/boards/lyft/jobs
+    enabled: true
+
+  - name: Reddit
+    careers_url: https://job-boards.greenhouse.io/reddit
+    api: https://boards-api.greenhouse.io/v1/boards/reddit/jobs
+    enabled: true
+
+  - name: Discord
+    careers_url: https://job-boards.greenhouse.io/discord
+    api: https://boards-api.greenhouse.io/v1/boards/discord/jobs
+    enabled: true
+
+  - name: Twilio
+    careers_url: https://www.twilio.com/en-us/company/jobs
+    scan_method: websearch
+    scan_query: 'site:twilio.com/company/jobs "DevOps" OR "SRE" OR "Infrastructure" OR "Cloud"'
+    enabled: true
+
+  - name: Figma
+    careers_url: https://job-boards.greenhouse.io/figma
+    api: https://boards-api.greenhouse.io/v1/boards/figma/jobs
+    enabled: true
+
+  - name: Notion
+    careers_url: https://job-boards.greenhouse.io/notion
+    api: https://boards-api.greenhouse.io/v1/boards/notion/jobs
+    enabled: true
+
+  - name: Canva
+    careers_url: https://job-boards.greenhouse.io/canva
+    api: https://boards-api.greenhouse.io/v1/boards/canva/jobs
+    enabled: true
+
+  - name: Vercel
+    careers_url: https://job-boards.greenhouse.io/vercel
+    api: https://boards-api.greenhouse.io/v1/boards/vercel/jobs
+    enabled: true
+
+  - name: Airtable
+    careers_url: https://job-boards.greenhouse.io/airtable
+    api: https://boards-api.greenhouse.io/v1/boards/airtable/jobs
+    enabled: true
+
+  - name: Plaid
+    careers_url: https://job-boards.greenhouse.io/plaid
+    api: https://boards-api.greenhouse.io/v1/boards/plaid/jobs
+    enabled: true
+
+  - name: Coinbase
+    careers_url: https://job-boards.greenhouse.io/coinbase
+    api: https://boards-api.greenhouse.io/v1/boards/coinbase/jobs
+    enabled: true
+
+  - name: Retool
+    careers_url: https://retool.com/careers
+    scan_method: websearch
+    scan_query: 'site:retool.com/careers "DevOps" OR "Infrastructure" OR "Platform" OR "SRE"'
+    enabled: true
+
+  - name: Supabase
+    scan_method: websearch
+    scan_query: '"Supabase" careers "DevOps" OR "Infrastructure" OR "SRE" OR "Platform"'
+    enabled: true
+
+  - name: Vercel
+    scan_method: websearch
+    scan_query: '"Postman" careers "DevOps" OR "Infrastructure" OR "SRE" OR "Platform"'
+    enabled: true
+
+  # =============================================
+  # TIER 5 — Enterprise / Fortune 500
+  # =============================================
+
+  - name: Salesforce
+    scan_method: websearch
+    scan_query: 'site:salesforce.com/careers OR site:careers.salesforce.com "DevOps" OR "SRE" OR "Infrastructure" OR "Platform"'
+    enabled: true
+
+  - name: Oracle
+    scan_method: websearch
+    scan_query: 'site:oracle.com/careers "DevOps" OR "SRE" OR "Cloud Infrastructure" OR "Platform"'
+    enabled: true
+
+  - name: IBM
+    scan_method: websearch
+    scan_query: 'site:ibm.com/careers "DevOps" OR "SRE" OR "Cloud Engineer" OR "Platform"'
+    enabled: true
+
+  - name: Cisco
+    scan_method: websearch
+    scan_query: 'site:jobs.cisco.com "DevOps" OR "SRE" OR "Infrastructure" OR "Cloud" OR "Platform"'
+    enabled: true
+
+  - name: VMware/Broadcom
+    scan_method: websearch
+    scan_query: '"VMware" OR "Broadcom" careers "DevOps" OR "SRE" OR "Infrastructure" OR "Cloud"'
+    enabled: true
+
+  - name: Intuit
+    scan_method: websearch
+    scan_query: 'site:jobs.intuit.com "DevOps" OR "SRE" OR "Infrastructure" OR "Platform"'
+    enabled: true
+
+  - name: Adobe
+    scan_method: websearch
+    scan_query: 'site:adobe.com/careers "DevOps" OR "SRE" OR "Infrastructure" OR "Cloud" OR "Platform"'
+    enabled: true
+
+  - name: ServiceNow
+    scan_method: websearch
+    scan_query: 'site:servicenow.com/careers "DevOps" OR "SRE" OR "Infrastructure" OR "Cloud"'
+    enabled: true
+
+  - name: Palantir
+    scan_method: websearch
+    scan_query: 'site:palantir.com/careers "DevOps" OR "SRE" OR "Infrastructure" OR "Platform"'
+    enabled: true
+
+  - name: Snowflake
+    scan_method: websearch
+    scan_query: 'site:careers.snowflake.com "DevOps" OR "SRE" OR "Infrastructure" OR "Platform" OR "Cloud"'
+    enabled: true
+
+  - name: CrowdStrike
+    careers_url: https://job-boards.greenhouse.io/crowdstrike
+    api: https://boards-api.greenhouse.io/v1/boards/crowdstrike/jobs
+    enabled: true
+
+  - name: Palo Alto Networks
+    careers_url: https://job-boards.greenhouse.io/pabordi
+    scan_method: websearch
+    scan_query: 'site:jobs.paloaltonetworks.com "DevOps" OR "SRE" OR "Cloud Engineer" OR "Platform"'
+    enabled: true
+
+  - name: Zscaler
+    scan_method: websearch
+    scan_query: '"Zscaler" careers "DevOps" OR "SRE" OR "Infrastructure" OR "Cloud"'
+    enabled: true
+
+  - name: Fortinet
+    scan_method: websearch
+    scan_query: '"Fortinet" careers "DevOps" OR "SRE" OR "Infrastructure" OR "Cloud"'
+    enabled: true
+
+  # =============================================
+  # TIER 6 — High-Growth / Unicorns
+  # =============================================
+
+  - name: Ramp
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/ramp "DevOps" OR "Infrastructure" OR "SRE" OR "Platform"'
+    enabled: true
+
+  - name: Rippling
+    scan_method: websearch
+    scan_query: '"Rippling" careers "DevOps" OR "SRE" OR "Infrastructure" OR "Platform"'
+    enabled: true
+
+  - name: Brex
+    scan_method: websearch
+    scan_query: '"Brex" careers "DevOps" OR "SRE" OR "Infrastructure" OR "Platform"'
+    enabled: true
+
+  - name: Wiz
+    scan_method: websearch
+    scan_query: '"Wiz" cloud security careers "DevOps" OR "SRE" OR "Infrastructure" OR "Platform"'
+    enabled: true
+
+  - name: Anduril
+    careers_url: https://job-boards.greenhouse.io/andurilindustries
+    api: https://boards-api.greenhouse.io/v1/boards/andurilindustries/jobs
+    enabled: true
+
+  - name: SpaceX
+    scan_method: websearch
+    scan_query: 'site:spacex.com/careers "DevOps" OR "SRE" OR "Infrastructure" OR "Platform" OR "Cloud"'
+    enabled: true
+
+  - name: Relativity Space
+    scan_method: websearch
+    scan_query: '"Relativity Space" careers "DevOps" OR "SRE" OR "Infrastructure"'
+    enabled: true
+
+  - name: Crusoe Energy
+    careers_url: https://jobs.ashbyhq.com/Crusoe
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/Crusoe "DevOps" OR "SRE" OR "Infrastructure" OR "Cloud"'
+    enabled: true
+
+  - name: Lambda
+    careers_url: https://jobs.ashbyhq.com/lambda
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/lambda "DevOps" OR "SRE" OR "Infrastructure" OR "Cloud"'
+    enabled: true
+
+  - name: CoreWeave
+    scan_method: websearch
+    scan_query: '"CoreWeave" careers "DevOps" OR "SRE" OR "Infrastructure" OR "Cloud" OR "Platform"'
+    enabled: true
+
+  - name: Applied Intuition
+    scan_method: websearch
+    scan_query: '"Applied Intuition" careers "DevOps" OR "SRE" OR "Infrastructure" OR "Platform"'
+    enabled: true
+
+  - name: Anyscale
+    scan_method: websearch
+    scan_query: '"Anyscale" careers "DevOps" OR "SRE" OR "Infrastructure" OR "Platform"'
+    enabled: true
+
+  - name: dbt Labs
+    careers_url: https://job-boards.greenhouse.io/dbtlabsinc
+    api: https://boards-api.greenhouse.io/v1/boards/dbtlabsinc/jobs
+    enabled: true
+
+  - name: Fivetran
+    scan_method: websearch
+    scan_query: '"Fivetran" careers "DevOps" OR "SRE" OR "Infrastructure" OR "Platform"'
+    enabled: true
+
+  - name: Census
+    scan_method: websearch
+    scan_query: '"Census" data careers "DevOps" OR "SRE" OR "Infrastructure"'
+    enabled: true
+
+  - name: Cockroach Labs
+    scan_method: websearch
+    scan_query: '"Cockroach Labs" careers "DevOps" OR "SRE" OR "Infrastructure" OR "Cloud"'
+    enabled: true
+
+  - name: SingleStore
+    scan_method: websearch
+    scan_query: '"SingleStore" careers "DevOps" OR "SRE" OR "Infrastructure"'
+    enabled: true
+
+  - name: PlanetScale
+    scan_method: websearch
+    scan_query: '"PlanetScale" careers "DevOps" OR "SRE" OR "Infrastructure"'
+    enabled: true
+
+  - name: Neon
+    scan_method: websearch
+    scan_query: '"Neon" database careers "DevOps" OR "SRE" OR "Infrastructure"'
+    enabled: true
+
+  # =============================================
+  # TIER 7 — Fintech
+  # =============================================
+
+  - name: Robinhood
+    scan_method: websearch
+    scan_query: 'site:robinhood.com/careers "DevOps" OR "SRE" OR "Infrastructure" OR "Platform"'
+    enabled: true
+
+  - name: Chime
+    scan_method: websearch
+    scan_query: '"Chime" fintech careers "DevOps" OR "SRE" OR "Infrastructure" OR "Platform"'
+    enabled: true
+
+  - name: SoFi
+    scan_method: websearch
+    scan_query: '"SoFi" careers "DevOps" OR "SRE" OR "Infrastructure" OR "Cloud"'
+    enabled: true
+
+  - name: Square/Block
+    scan_method: websearch
+    scan_query: 'site:block.xyz/careers OR "Square" "Block" "DevOps" OR "SRE" OR "Infrastructure"'
+    enabled: true
+
+  - name: Affirm
+    careers_url: https://job-boards.greenhouse.io/affirm
+    api: https://boards-api.greenhouse.io/v1/boards/affirm/jobs
+    enabled: true
+
+  - name: Marqeta
+    scan_method: websearch
+    scan_query: '"Marqeta" careers "DevOps" OR "SRE" OR "Infrastructure" OR "Cloud"'
+    enabled: true
+
+  # =============================================
+  # TIER 8 — Healthcare / Biotech
+  # =============================================
+
+  - name: Epic Systems
+    scan_method: websearch
+    scan_query: '"Epic Systems" careers "DevOps" OR "SRE" OR "Infrastructure" OR "Cloud"'
+    enabled: true
+
+  - name: Veeva Systems
+    scan_method: websearch
+    scan_query: '"Veeva Systems" careers "DevOps" OR "SRE" OR "Infrastructure"'
+    enabled: true
+
+  - name: Tempus
+    scan_method: websearch
+    scan_query: '"Tempus AI" careers "DevOps" OR "SRE" OR "Infrastructure" OR "Platform"'
+    enabled: true
+
+  - name: Flatiron Health
+    scan_method: websearch
+    scan_query: '"Flatiron Health" careers "DevOps" OR "SRE" OR "Infrastructure"'
+    enabled: true
+
+  # =============================================
+  # TIER 9 — Remote-First Companies
+  # =============================================
+
+  - name: Automattic
+    scan_method: websearch
+    scan_query: '"Automattic" careers "DevOps" OR "SRE" OR "Infrastructure" OR "Systems"'
+    enabled: true
+
+  - name: Zapier
+    scan_method: websearch
+    scan_query: '"Zapier" careers "DevOps" OR "SRE" OR "Infrastructure" OR "Platform"'
+    enabled: true
+
+  - name: Buffer
+    scan_method: websearch
+    scan_query: '"Buffer" careers "DevOps" OR "SRE" OR "Infrastructure"'
+    enabled: true
+
+  - name: InVision
+    scan_method: websearch
+    scan_query: '"InVision" careers "DevOps" OR "SRE" OR "Infrastructure"'
+    enabled: true
+
+  - name: Doist
+    scan_method: websearch
+    scan_query: '"Doist" OR "Todoist" careers "DevOps" OR "SRE" OR "Infrastructure"'
+    enabled: true
+
+  - name: Sourcegraph
+    scan_method: websearch
+    scan_query: '"Sourcegraph" careers "DevOps" OR "SRE" OR "Infrastructure" OR "Platform"'
+    enabled: true
+
+  - name: Fly.io
+    scan_method: websearch
+    scan_query: '"Fly.io" careers "DevOps" OR "SRE" OR "Infrastructure" OR "Platform"'
+    enabled: true
+
+  - name: Railway
+    scan_method: websearch
+    scan_query: '"Railway" app careers "DevOps" OR "SRE" OR "Infrastructure"'
+    enabled: true
+
+  - name: Render
+    scan_method: websearch
+    scan_query: '"Render" cloud careers "DevOps" OR "SRE" OR "Infrastructure"'
+    enabled: true

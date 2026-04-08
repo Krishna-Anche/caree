@@ -79,10 +79,11 @@ Los niveles son aditivos — se ejecutan todos, los resultados se mezclan y dedu
       - **company**: después del " @ " en el título, o extraer del dominio/path
    c. Acumular en lista de candidatos (dedup con Nivel 1+2)
 
-6. **Filtrar por título** usando `title_filter` de `portals.yml`:
+6. **Filtrar por título y fecha** usando `title_filter` de `portals.yml`:
    - Al menos 1 keyword de `positive` debe aparecer en el título (case-insensitive)
    - 0 keywords de `negative` deben aparecer
    - `seniority_boost` keywords dan prioridad pero no son obligatorios
+   - **`max_age_days`**: Skip postings older than this many days (default: 7). Check the posting date from the API response (`created_at`, `updated_at`) or page content. If no date available, include the job (benefit of the doubt). For WebSearch results, add `after:{YYYY-MM-DD}` date filter (7 days ago) to the query.
 
 7. **Deduplicar** contra 3 fuentes:
    - `scan-history.tsv` → URL exacta ya vista
@@ -124,6 +125,53 @@ https://...	2026-02-10	Greenhouse — SA	Junior Dev	BigCo	skipped_title
 https://...	2026-02-10	Ashby — AI PM	SA AI	OldCo	skipped_dup
 ```
 
+## Post-scan: JD Verification Pipeline
+
+After adding new offers to pipeline.md, automatically run this verification for every new offer:
+
+### Step 1 — Quick Score (title-based)
+Score each new offer 1-5 against the candidate profile in `config/profile.yml` and `cv.md`:
+- 5/5: Perfect title/seniority/domain match
+- 4/5: Strong match
+- 3/5: Moderate
+- 2/5: Weak
+- 1/5: Skip (wrong domain)
+
+### Step 2 — JD Verification (for scores ≥ 4.0 only)
+Fetch the full JD using WebFetch and verify:
+1. **Location**: Must be USA (skip Mexico, Canada, Europe, India, Israel, APJ, etc.). Candidate is on H1B.
+2. **Still open**: Not 404 or expired
+3. **Skills match**: Actual requirements match K8s, Terraform, AWS, CI/CD, Docker, Grafana, Vault
+4. **Seniority**: Senior/Staff sweet spot (7+ YoE). Flag if requires 10+ or management experience.
+5. **Clearance**: Flag if requires US Citizenship or security clearance (H1B blocker)
+6. **Comp**: Extract salary range if available
+
+### Step 3 — Telegram notification
+Send results to Telegram (bot token and chat_id from `.omc-config.json` notifications.telegram):
+
+**Format for verified matches:**
+```
+🎯 NEW VERIFIED MATCH — {date}
+
+{Company} — {Title}
+📍 {Location} | 💰 {Comp if available}
+Score: {X}/5
+✅ {Key match reasons}
+⚠️ {Any concerns}
+🔗 {URL}
+```
+
+**Format for scan summary (if no new verified matches):**
+```
+🔍 Scan Complete — {date}
+New found: {N} | Verified 4.0+: {N} | Skipped: {N}
+Next scan in 1 hour.
+```
+
+### Step 4 — Mark verified offers
+In pipeline.md, update verified high-scoring offers with score:
+`- [ ] {url} | {company} | {title} | ⭐ {score}/5 | {location}`
+
 ## Resumen de salida
 
 ```
@@ -134,11 +182,10 @@ Ofertas encontradas: N total
 Filtradas por título: N relevantes
 Duplicadas: N (ya evaluadas o en pipeline)
 Nuevas añadidas a pipeline.md: N
+JD-verified (4.0+): N
+Skipped (wrong location/closed/clearance): N
 
-  + {company} | {title} | {query_name}
-  ...
-
-→ Ejecuta /career-ops pipeline para evaluar las nuevas ofertas.
+→ Verified matches sent to Telegram.
 ```
 
 ## Gestión de careers_url
